@@ -5,11 +5,11 @@ This package has been developed only for the Paytr Iframe API service.
 
 **How to install?**
 
-    composer require hasanorkan/laravel-paytr
+    composer require hasanorkan/laravel-paytrdirekapi
     
 Publish provider
    
-    php artisan vendor:publish --provider="Gizemsever\LaravelPaytr\PaytrServiceProvider"
+    php artisan vendor:publish --provider="Hasanorkan\LaravelPaytr\PaytrServiceProvider"
 
 Setup your environment
 
@@ -39,7 +39,7 @@ Setup your environment
  **Create Payment Request**
 
     <?php 
-	    use Gizemsever\LaravelPaytr\Payment\Currency;
+	    use Hasanorkan\LaravelPaytr\Payment\Currency;
 	    
 		$payment = \Paytr::payment()  
 		    ->setCurrency(Currency::TRY)  
