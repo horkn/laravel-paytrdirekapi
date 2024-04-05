@@ -5,14 +5,14 @@
 
 namespace Hasanorkan\LaravelPaytr;
 
-use Hasanorkan\LaravelPaytr\Direkt\BankIdentification;
-use Hasanorkan\LaravelPaytr\Direkt\Capi;
-use Hasanorkan\LaravelPaytr\Direkt\DPayment;
-use Hasanorkan\LaravelPaytr\Direkt\DPaymentVerification;
-use Hasanorkan\LaravelPaytr\Direkt\Installment;
-use Hasanorkan\LaravelPaytr\Payment\Basket;
-use Hasanorkan\LaravelPaytr\Payment\Payment;
-use Hasanorkan\LaravelPaytr\Payment\PaymentVerification;
+use horkan\LaravelPaytr\Direkt\BankIdentification;
+use horkan\LaravelPaytr\Direkt\Capi;
+use horkan\LaravelPaytr\Direkt\DPayment;
+use horkan\LaravelPaytr\Direkt\DPaymentVerification;
+use horkan\LaravelPaytr\Direkt\Installment;
+use horkan\LaravelPaytr\Payment\Basket;
+use horkan\LaravelPaytr\Payment\Payment;
+use horkan\LaravelPaytr\Payment\PaymentVerification;
 use GuzzleHttp\Client;
 use Illuminate\Http\Request;
 

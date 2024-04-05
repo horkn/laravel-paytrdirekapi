@@ -5,8 +5,8 @@
 
 namespace Hasanorkan\LaravelPaytr\Payment;
 
-use Hasanorkan\LaravelPaytr\PaytrClient;
-use Hasanorkan\LaravelPaytr\PaytrResponse;
+use horkan\LaravelPaytr\PaytrClient;
+use horkan\LaravelPaytr\PaytrResponse;
 
 class Payment extends PaytrClient
 {

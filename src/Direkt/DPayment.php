@@ -5,10 +5,10 @@
 
 namespace Hasanorkan\LaravelPaytr\Direkt;
 
-use Hasanorkan\LaravelPaytr\Payment\Basket;
-use Hasanorkan\LaravelPaytr\Payment\Currency;
-use Hasanorkan\LaravelPaytr\PaytrClient;
-use Hasanorkan\LaravelPaytr\PaytrResponse;
+use horkan\LaravelPaytr\Payment\Basket;
+use horkan\LaravelPaytr\Payment\Currency;
+use horkan\LaravelPaytr\PaytrClient;
+use horkan\LaravelPaytr\PaytrResponse;
 
 class DPayment extends PaytrClient
 {

@@ -5,7 +5,7 @@
 
 namespace Hasanorkan\LaravelPaytr\Payment;
 
-use Hasanorkan\LaravelPaytr\PaytrClient;
+use horkan\LaravelPaytr\PaytrClient;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 

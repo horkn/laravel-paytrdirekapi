@@ -5,7 +5,7 @@
 
 namespace Hasanorkan\LaravelPaytr\Direkt;
 
-use Hasanorkan\LaravelPaytr\PaytrClient;
+use horkan\LaravelPaytr\PaytrClient;
 
 class DPaymentVerification extends PaytrClient
 {
